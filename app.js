@@ -4,7 +4,7 @@ let amigos = [];
 
 function agregarAmigo() {
     let = nombres = document.getElementById("amigo").value;
-    if (nombres === "") {
+    if (!nombres) {
         alert("por favor inserte un nombre");
     } else {
         if (amigos.includes(nombres)) {
